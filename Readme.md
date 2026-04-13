@@ -23,7 +23,7 @@ https://link.springer.com/article/10.1007/s11517-024-03187-4
 | Component | Details |
 |----------|--------|
 | Model (Paper) | VGG-16 (Pretrained CNN with Transfer Learning) |
-| Model (Our Work) | VGG-19 (Pretrained CNN with Transfer Learning) |
+| Model (Trained on our dataset) | VGG-19 (Pretrained CNN with Transfer Learning) |
 | Task | Multi-class Fatty Liver Severity Classification |
 | Input | Ultrasound Images |
 | Dataset | https://www.kaggle.com/datasets/orvile/annotated-ultrasound-liver-images-dataset?resource=download |
@@ -53,7 +53,7 @@ https://link.springer.com/article/10.1007/s11517-024-03187-4
 
 ---
 
-### 🔹 Our Approach
+### 🔹 Our Approach(Trained same model on our dataset for comparitive analysis)
 - Uses **VGG19**
 - Input: Raw ultrasound images
 - Transfer learning applied
@@ -65,7 +65,7 @@ https://link.springer.com/article/10.1007/s11517-024-03187-4
 
 ### 🔥 Overall Performance
 
-| Metric | Paper (VGG16) | Our Model (VGG19) |
+| Metric | Paper (VGG16) | Trained on our dataset (VGG19) |
 |------|--------------|----------------|
 | Accuracy | ~63% | **67.35%** |
 | Precision | Moderate | 0.67 (weighted avg) |
@@ -129,7 +129,7 @@ https://link.springer.com/article/10.1007/s11517-024-03187-4
 
 ### ⚖️ 5. Paper vs Our Model
 
-| Aspect      | Paper         | Our Model |
+| Aspect      | Paper         | Our dataset result |
 |------       |------         |--------|
 | Balance     | More balanced | Imbalanced |
 | Accuracy    | Lower         | Higher |
